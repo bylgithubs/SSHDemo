@@ -98,6 +98,6 @@ public class Employee {
 		return "Employee [eid=" + eid + ", ename=" + ename + ", sex=" + sex
 				+ ", birthday=" + birthday + ", joinDate=" + joinDate
 				+ ", eno=" + eno + ", username=" + username + ", password="
-				+ password + ", department=" + department + "]";
+				+ password + ", department=" + department.getDid() + "]";
 	}
 }

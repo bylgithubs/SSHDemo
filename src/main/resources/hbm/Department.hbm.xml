@@ -11,8 +11,8 @@
         <property name="dname" column="dname" length="20"/>
         <property name="ddesc" column="ddesc" length="100"/>
         <!--配置一对多关系-->
-        <set name="emplyoees" >
-            <key column="dno"/>
+        <set name="employees" >
+            <key column="did"/>
             <one-to-many class="com.koali.pojo.Employee"/>
         </set>
     </class>

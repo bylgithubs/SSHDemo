@@ -16,7 +16,7 @@ public class Department {
     private Integer did;
     private String dname;
     private String ddesc;
-    private Set<Employee> emplyoees = new HashSet<Employee>();
+    private Set<Employee> employees = new HashSet<Employee>();
 
     public Integer getDid() {
         return did;
@@ -42,17 +42,17 @@ public class Department {
         this.ddesc = ddesc;
     }
 
-    public Set<Employee> getEmplyoees() {
-        return emplyoees;
-    }
+    public Set<Employee> getEmployees() {
+		return employees;
+	}
 
-    public void setEmplyoees(Set<Employee> emplyoees) {
-        this.emplyoees = emplyoees;
-    }
+	public void setEmployees(Set<Employee> employees) {
+		this.employees = employees;
+	}
 
-    @Override
+	@Override
     public String toString() {
         return "Department [did=" + did + ", dname=" + dname + ", ddesc="
-                + ddesc + ", emplyoees=" + emplyoees + "]";
+                + ddesc +"]";
     }
 }

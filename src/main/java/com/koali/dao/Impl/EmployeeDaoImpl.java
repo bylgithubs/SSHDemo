@@ -3,7 +3,7 @@ package com.koali.dao.Impl;
 import com.koali.dao.EmployeeDao;
 import com.koali.pojo.Employee;
 import org.hibernate.criterion.DetachedCriteria;
-import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
+import org.springframework.orm.hibernate4.support.HibernateDaoSupport;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;

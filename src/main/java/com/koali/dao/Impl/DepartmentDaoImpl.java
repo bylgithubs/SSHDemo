@@ -2,9 +2,10 @@ package com.koali.dao.Impl;
 
 import com.koali.dao.DepartmentDao;
 import com.koali.pojo.Department;
+
 import org.hibernate.criterion.DetachedCriteria;
-import org.springframework.orm.hibernate5.HibernateTemplate;
-import org.springframework.orm.hibernate5.support.HibernateDaoSupport;
+import org.springframework.orm.hibernate4.HibernateTemplate;
+import org.springframework.orm.hibernate4.support.HibernateDaoSupport;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
